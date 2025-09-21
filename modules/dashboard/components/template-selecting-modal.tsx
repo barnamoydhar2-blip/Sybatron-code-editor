@@ -235,8 +235,8 @@ const TemplateSelectionModal = ({
         {step === "select" ? (
           <>
             <DialogHeader>
-              <DialogTitle className="text-2xl font-bold text-[#e93f3f] flex items-center gap-2">
-                <Plus size={24} className="text-[#e93f3f]" />
+              <DialogTitle className="text-2xl font-bold text-[#56e93f] flex items-center gap-2">
+                <Plus size={24} className="text-lime-300" />
                 Select a Template
               </DialogTitle>
               <DialogDescription>
