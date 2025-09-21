@@ -41,36 +41,12 @@ export function Header() {
                       width={60}
                     />
 
-                    <span className="hidden sm:block font-extrabold text-lg">
-                      VibeCode Editor
+                    <span className="hidden sm:block font-extrabold text-lg bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-red-400 to-lime-400 dark:from-lime-400 dark:via-red-400 dark:to-cyan-400 tracking-tight leading-[1.3]">
+                      SYB-CODE-EDITOR
                     </span>
                   </Link>
                   <span className="text-zinc-300 dark:text-zinc-700">|</span>
-                  {/* Desktop Navigation Links */}
-                  <div className="hidden sm:flex items-center gap-4">
-                    <Link
-                      href="/docs/components/background-paths"
-                      className="text-sm text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
-                    >
-                      Docs
-                    </Link>
-                    {/* <Link
-                                            href="/pricing"
-                                            className="text-sm text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
-                                        >
-                                            Pricing
-                                        </Link> */}
-                    <Link
-                      href="https://codesnippetui.pro/templates?utm_source=codesnippetui.com&utm_medium=header"
-                      target="_blank"
-                      className="text-sm text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors flex items-center gap-2"
-                    >
-                      API
-                      <span className="text-green-500 dark:text-green-400 border border-green-500 dark:border-green-400 rounded-lg px-1 py-0.5 text-xs">
-                        New
-                      </span>
-                    </Link>
-                  </div>
+                  
                 </div>
 
                 {/* Right side items */}

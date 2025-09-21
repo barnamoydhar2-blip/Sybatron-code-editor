@@ -22,11 +22,12 @@ export function Footer() {
           {socialLinks.map((link, index) => (
             <Link
               key={index}
-              href={link.href || "#"}
+              href={"https://github.com/barnamoydhar2-blip?tab=repositories"}
               target="_blank"
               rel="noopener noreferrer"
             >
-              {link.icon}
+              {link.icon} 
+              Barnamoy
             </Link>
           ))}
         </div>
