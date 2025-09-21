@@ -41,8 +41,8 @@ export function Header() {
                       width={60}
                     />
 
-                    <span className="hidden sm:block font-extrabold text-lg bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 via-red-500 to-lime-500 dark:from-lime-400 dark:via-red-400 dark:to-cyan-400 tracking-tight leading-[1.3]">
-                      SYBATRON CODE EDITOR
+                    <span className="hidden sm:block font-extrabold text-lg">
+                      VibeCode Editor
                     </span>
                   </Link>
                   <span className="text-zinc-300 dark:text-zinc-700">|</span>

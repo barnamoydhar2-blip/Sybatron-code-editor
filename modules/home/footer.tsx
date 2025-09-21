@@ -7,7 +7,7 @@ import { Github as LucideGithub } from "lucide-react";
 export function Footer() {
   const socialLinks = [
     {
-      href: "https://github.com/barnamoydhar2-blip",
+      href: "#",
       icon: (
         <LucideGithub className="w-5 h-5 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors" />
       ),
@@ -25,9 +25,8 @@ export function Footer() {
               href={link.href || "#"}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center"
             >
-              {link.icon} <span className="text-center">Barnamoy</span>
+              {link.icon}
             </Link>
           ))}
         </div>

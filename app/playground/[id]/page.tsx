@@ -229,8 +229,7 @@ const MainPlaygroundPage = () => {
         }
 
            const newTemplateData = await saveTemplateData(updatedTemplateData);
-            //@ts-ignore
-           setTemplateData(newTemplateData || updatedTemplateData);
+        setTemplateData(newTemplateData || updatedTemplateData);
 // Update open files
         const updatedOpenFiles = openFiles.map((f) =>
           f.id === targetFileId
